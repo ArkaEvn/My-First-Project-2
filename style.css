@@ -1,0 +1,67 @@
+*{
+    font-family: sans-serif;
+    /* background-color: rgb(150, 150, 150); */
+}
+.header{
+    display: flex;
+    color: #1878F3;;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 10px; */
+
+}
+.lagu{
+    border-radius: 10px;
+    border: 1px solid rgb(195, 195, 195);
+    width: 30%;
+    padding: 15px;
+    /* background: linear-gradient(#400a0a, #180403); */
+
+}
+.lagu h2{
+    margin: 0;
+    margin-top: 30px;
+}
+.lagu img{
+    width: 75%;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.bawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: snow;
+    font-size: smaller;
+}
+.song{
+    display: flex;
+    margin-left: 10rem;
+}
+.song button{
+    margin-top: 30px;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border: none;
+    background-color: snow;
+    cursor: pointer;
+}
+.title{
+    color: snow;
+}
+.kanan, .kiri{
+    display: flex;
+    /* background-color: blue; */
+    padding: 10px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.kanan svg{
+    margin-right: 5px;
+}
